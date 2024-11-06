@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(routes);
 
-if (process.env.PORT) {
+if (true) {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = dirname(__filename);
 
