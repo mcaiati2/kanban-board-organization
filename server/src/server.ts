@@ -1,8 +1,6 @@
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-import path from 'path';
 
-const forceDatabaseRefresh = false;
+
+const forceDatabaseRefresh = true;
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -10,6 +8,9 @@ dotenv.config();
 import express from 'express';
 import routes from './routes/index.js';
 import { sequelize } from './models/index.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import path from 'path';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
