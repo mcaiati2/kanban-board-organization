@@ -9,6 +9,7 @@ export const login = async (req, res) => {
     if (!user) {
         return res.status(401).json({ message: 'Invalid username or password' });
     }
+    console.log(req.body);
     // Compare the provided password with the stored hashed password
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {

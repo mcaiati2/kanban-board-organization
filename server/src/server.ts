@@ -1,4 +1,4 @@
-const forceDatabaseRefresh = true;
+const forceDatabaseRefresh = false;
 
 import dotenv from 'dotenv';
 dotenv.config();
