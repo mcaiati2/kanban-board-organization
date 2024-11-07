@@ -12,7 +12,7 @@
 
 
 ## Description
-Kanban is a great tool to manage your tasks! You can add new tasks, view your existing tasks, and delete your tasks.
+[Kanban](https://kanban-fullstack-challenge.onrender.com/) is a great tool to manage your tasks! You can add new tasks, view your existing tasks, and delete your tasks. Kanban has a secure login page, so you will be able to save your tasks with ease, and return to them when you are ready to view them again.
 
 ## Installation
 You must run npm i to install all necessary dependencies.
