@@ -112,6 +112,7 @@ tbody tr:nth-child(odd) {
   display: block;
   margin-left: auto;
   list-style: none;
+
 }
 
 .nav-link {
